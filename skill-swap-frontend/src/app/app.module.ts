@@ -10,6 +10,8 @@ import { ProfileComponent } from './profile/profile.component';
 import { AdsListComponent } from './ads-list/ads-list.component';
 import { AdDetailComponent } from './ad-detail/ad-detail.component';
 import { AdCreateComponent } from './ad-create/ad-create.component';
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { AdCreateComponent } from './ad-create/ad-create.component';
     ProfileComponent,
     AdsListComponent,
     AdDetailComponent,
-    AdCreateComponent
+    AdCreateComponent,
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

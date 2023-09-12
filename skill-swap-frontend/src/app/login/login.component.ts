@@ -8,5 +8,6 @@ import { AuthService } from '../auth.service';
   styleUrls: ['./login.component.scss']
 })
 export class LoginComponent {
+formData: any;
   // Lógica del formulario de inicio de sesión
 }

@@ -8,5 +8,6 @@ import { AuthService } from '../auth.service';
   styleUrls: ['./register.component.scss']
 })
 export class RegisterComponent {
+[x: string]: any;
   // Lógica del formulario de registro
 }
